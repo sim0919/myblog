@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "LINE-Thin";
+    src: url("./assets/fonts/LINESeedKR-Th.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "LINE-Regulr";
+    src: url("./assets/fonts/LINESeedKR-Rg.ttf");
+}
+
+@font-face {
+    font-family: "LINE-Bold";
+    src: url("./assets/fonts/LINESeedKR-Bd.ttf");
 }
